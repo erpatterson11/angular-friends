@@ -170,6 +170,11 @@ angular.module('myApp').controller('friendCtrl', function($scope) {
     friend_count: 855
   }]
 
-
+  $scope.filterOptions = [
+    {"label":"Name","value":"name"},
+    {"label":"#Friends","value":"friend_count"},
+    {"label":"City","value":"location.city"},
+    {"label":"State","value":"location.state"},
+    {"label":"Country","value":"location.country"}]
 
 })
